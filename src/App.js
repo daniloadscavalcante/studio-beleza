@@ -5,7 +5,6 @@ import Agenda from './pages/Agenda'
 import Galeria from './pages/Galeria'
 import Equipe from './pages/Equipe'
 import Contato from './pages/Contato'
-import Navbar from './components/Navbar'
 import Header from "./layout/Header"
 
 function App() {
