@@ -1,0 +1,8 @@
+.b_texto{
+    max-width: 620px;
+    width: 100%;    
+    padding: 30px 20px;
+  }
+.b_texto-right{
+    text-align: right;
+}

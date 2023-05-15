@@ -89,3 +89,69 @@ p{
 .nav-wrapper .menu a:hover{
   border-bottom: 2px dotted var(--third-color);
 }
+
+.s_estilosModerno{  
+  width: 100%;
+  margin: 100px auto 0;
+  padding: 10px;
+  display: flex; 
+  justify-content: space-between;        
+}
+
+
+.s_estilosModerno p{
+  margin: 30px 40px 30px 0;   
+  line-height: 1.5; 
+}
+.s_estilosModerno .s_estiloModerno__btn{
+  border: none;
+  padding: 8px 12px;
+  background-color: #37193B;
+  color: #fff;
+}
+.s_estilosModerno .b_texto{
+  max-width: 620px;
+  width: 100%;    
+  padding: 30px 20px;
+}
+
+.s_estilosModerno p{
+  margin: 30px 40px 30px 0;   
+  line-height: 1.5; 
+}
+.s_estilosModerno .s_estiloModerno__btn{
+  border: none;
+  padding: 8px 12px;
+  background-color: #37193B;
+  color: #fff;
+}
+
+
+
+.experiencia__info{
+  max-width: 610px;
+  width: 100%;
+  margin: 0 auto;
+  color: var(--second-color);
+  text-align: center; 
+  padding: 0 10px;    
+}
+.experience__desc{    
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 15px;
+}
+.depo-carrosel{    
+  max-width: 700px;
+  margin: 0 auto;
+}
+.depoimentos__info{
+  max-width: 100%;
+  margin: auto;
+  color: #fff;
+  text-align: center;   
+}
+.depoimentos__texto{
+  position: relative;
+  padding-top: 20px;
+}

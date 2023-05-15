@@ -7,9 +7,9 @@ export default function Dockbar(){
                 <img src={Logo} alt="Logo" />
             </div>
             <div className='midias-socias'>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-whatsapp"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-facebook"></i>
             </div>
         </div>
     )

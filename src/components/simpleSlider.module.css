@@ -1,0 +1,13 @@
+.slick-slider .slick-track, .slick-slider .slick-list{
+    height: auto;
+}
+.slick-prev, .slick-next{
+    display: none !important;
+}
+.slick-dots{
+    bottom: -70px;
+}
+.slick-dots li.slick-active button:before{
+    color: #fff;
+}
+
