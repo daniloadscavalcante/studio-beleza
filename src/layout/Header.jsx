@@ -1,5 +1,6 @@
-import Dockbar from '../components/Dockbar'
-import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Dockbar from '../layout/Dockbar'
+import Navbar from '../layout/Navbar'
 
 
 export default function Header(){
@@ -7,6 +8,7 @@ export default function Header(){
         <header>
             <Dockbar />  
             <Navbar />
+            <Hero />
         </header>
     )
 }

@@ -1,11 +1,11 @@
 
 import BlocoText from '../components/BlocoText';
-import Container from '../components/Container';
+import Container from '../layout/Container';
 import SecaoMain from '../components/SecaoMain';
 
 import imgExp from '../assets/img_melhoresExpe.jpg'
 import Parallax from '../components/Parallax'
-import SimpleSlider from '../components/SimpleSlider'
+import SimpleSlider from '../components/SliderDepo'
 
 export default function Home(){
     return (
@@ -17,7 +17,8 @@ export default function Home(){
 
                 <Parallax 
                     title="Venha ter uma experiencia incrivel com um dia gratis"
-                    conteudo= {<p>is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whenis simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>}
+                    type="texto"
+                    conteudo= "is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whenis simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
                     />  
                 
             
@@ -32,7 +33,7 @@ export default function Home(){
                 </div>                    
             </Container>
 
-            <Parallax title="Depoimentos" conteudo={<SimpleSlider />} />            
+            <Parallax title="Depoimentos" type="componente" conteudo={<SimpleSlider />} />            
         </main>       
     
     

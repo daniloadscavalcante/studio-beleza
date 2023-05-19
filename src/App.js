@@ -6,6 +6,7 @@ import Galeria from './pages/Galeria'
 import Equipe from './pages/Equipe'
 import Contato from './pages/Contato'
 import Header from "./layout/Header"
+import Footer from "./layout/Footer"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/equipe' element={<Equipe />} />
             <Route path='/contato' element={<Contato />} />        
         </Routes>
+        <Footer />
 </Router>  
     
   );

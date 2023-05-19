@@ -90,6 +90,42 @@ p{
   border-bottom: 2px dotted var(--third-color);
 }
 
+.hero{
+  position: relative;
+}
+.slider, .slider1, .slider2, .slider3{
+  background-image: url(../src/assets/banner-img.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 393px !important;    
+}
+.slider1{
+  background-image: url(../src/assets/slider1.jpg);    
+}
+.slider2{
+  background-image: url(../src/assets/slider2.jpg);   
+}
+.slider3{
+  background-image: url(../src/assets/slider3.jpg);   
+}
+.glider-dots{
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+}
+.glider-dot{
+  background: #37193B!important;
+}
+.glider-dot:hover{
+  background-color: rgba(55, 25, 59, .9);
+}
+.glider-dot.active{
+  border: 2px solid #E75A7A;
+}
+
+
 .s_estilosModerno{  
   width: 100%;
   margin: 100px auto 0;
@@ -154,4 +190,36 @@ p{
 .depoimentos__texto{
   position: relative;
   padding-top: 20px;
+}
+
+
+
+footer{
+  background: var(--primary-color);
+  min-height: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-center{
+  max-width: var(--s-center);   
+  width: 100%;     
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 30px;
+}
+.footer-center__logo{
+  text-align: center;
+}
+.footer-center__logo img{
+  width: 183px;
+  margin: auto;
+}
+.footer-contato{    
+  color: var(--second-color); 
+  line-height: 1.8;
+}
+.footer-contato__endereco{
+  font-style: initial
 }
