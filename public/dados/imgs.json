@@ -1,42 +1,50 @@
-{
+[
 
-    "imgs":[
+    {
+        "nome": "Laura beneze",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-1.jpg",
+        "alt":"Imagem da profissional Laura beneze"
+        
+    },
+    {
+        "nome": "Carla mioti",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-2.jpg",
+        "alt":"Imagem da profissional Carla mioti"
+    },
+    {
+        "nome": "Deby rolizie",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-3.jpg",
+        "alt":"Imagem da profissional Deby rolizie"
+    },
+    {
+        "nome": "Tiago ferraz",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-4.jpg",
+        "alt":"Imagem da profissional"
+    },
+    {
+        "nome": "Brenda santos",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-5.jpg",
+        "alt":"Imagem da profissional Tiago ferraz"
+    },
+    {
+        "nome": "Miranda alves",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-6.jpg",
+        "alt":"Imagem da profissional Miranda alves"
+    },
+    {
+        "nome": "Roberto carlos",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-7.jpg",
+        "alt":"Imagem da profissional Roberto carlos"
+    },
+    {
+        "nome": "Suzanny roz",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-8.jpg",
+        "alt":"Imagem da profissional Suzanny roz"
+    },
+    {
+        "nome": "Leila Santos",
+        "url": "https://estudiobeleza.netlify.app/_assets/profissional-9.jpg",
+        "alt":"Imagem da profissional Leila Santos"
+    }
     
-        {
-            "nome": "Laura beneze",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-1.jpg"        
-        },
-        {
-            "nome": "Carla mioti",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-2.jpg"
-        },
-        {
-            "nome": "Deby rolizie",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-3.jpg"
-        },
-        {
-            "nome": "Tiago ferraz",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-4.jpgg"
-        },
-        {
-            "nome": "Brenda santos",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-5.jpg"
-        },
-        {
-            "nome": "Miranda alves",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-6.jpg"
-        },
-        {
-            "nome": "Roberto carlos",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-7.jpg"
-        },
-        {
-            "nome": "Suzanny roz",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-8.jpg"
-        },
-        {
-            "nome": "Leila Santos",
-            "imagem": "https://estudiobeleza.netlify.app/_assets/profissional-9.jpg"
-        }
-    ]
-}
+]

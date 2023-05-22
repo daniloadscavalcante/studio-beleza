@@ -223,6 +223,29 @@ p{
   cursor: pointer;
 }
 
+.profissionais{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.profissionais figure{
+  width: 180px;  
+  margin: 20px;
+}
+.profissionais figure img{
+  height: auto;   
+}
+.profissionais figure figcaption{
+  text-align: center;
+  padding: 10px;
+  color: #E75A7A;
+  font-weight: 500;
+}
+
 
 footer{
   background: var(--primary-color);
