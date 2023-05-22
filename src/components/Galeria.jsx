@@ -12,13 +12,13 @@ export default function Galeria(){
 
    
     return(    
-        <section class="galeria-home">
-            <h2 class="galeria-home__titulo">Galeria</h2>
-            <div class="galeria-home__cards">
+        <section className="galeria-home">
+            <h2 className="galeria-home__titulo">Galeria</h2>
+            <div className="galeria-home__cards">
                 {imagens.map(img =>(
                     <article className='galeria-home__card' key={img}>
                         <figure>
-                            <img className='galeria-home__card__img' src={img} alt="" /
+                            <img className='galeria-home__card__img' src={img} alt="" />
                         </figure>                    
                     </article>
                 ))}                          

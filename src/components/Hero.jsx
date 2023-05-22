@@ -12,10 +12,10 @@ export default function Hero(){
             slidesToScroll={1}
             >
             
-            <div class="slider"></div>
-            <div class="slider1"></div>
-            <div class="slider2"></div>
-            <div class="slider3"></div>      
+            <div className="slider"></div>
+            <div className="slider1"></div>
+            <div className="slider2"></div>
+            <div className="slider3"></div>      
 
         </Glider>
     )
