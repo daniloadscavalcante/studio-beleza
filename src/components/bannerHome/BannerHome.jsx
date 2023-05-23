@@ -1,7 +1,8 @@
 import Glider from 'react-glider';
 import 'glider-js/glider.min.css';
 
-export default function Hero(){
+
+export default function BannerHome(){
     return(        
         <Glider 
             className="slider-container" id="glider"

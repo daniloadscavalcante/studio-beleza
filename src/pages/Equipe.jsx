@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import  "../layout/TitleCenter.css"
+import HeroBase from "../components/heroBase/HeroBase"
 
 
 export default function Equipe(){
@@ -17,11 +18,16 @@ export default function Equipe(){
             }) 
             .catch((error) => console.log("não pegou os dados"))      
            
-        }, [])           
-
-
+        }, [])   
+        
     return (
+    
+        
         <main>
+            <HeroBase 
+            titulo ="Equipe"
+            bg ="/img/banner-geral.jpg"
+            />
             <div>
                 <h2 className="title-center">Profssionais</h2>
             </div>

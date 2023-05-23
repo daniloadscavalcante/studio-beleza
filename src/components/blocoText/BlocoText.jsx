@@ -1,4 +1,4 @@
-import styles from '../components/BlocoText.module.css'
+import styles from '../blocoText/BlocoText.module.css'
 
 export default function BlocoText({title, text, textBtn, customClass}){
     return(

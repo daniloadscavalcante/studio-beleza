@@ -1,0 +1,15 @@
+.banner{    
+    min-height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border: 1px solid blue;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner__titulo{
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;   
+    -webkit-text-stroke: 1px #E75A7A;
+}

@@ -1,17 +1,22 @@
 
-import BlocoText from '../components/BlocoText';
+import BlocoText from '../components/blocoText/BlocoText';
 import Container from '../layout/Container';
 
 import imgExp from '../assets/img_melhoresExpe.jpg'
 import imgIntro from '../assets/estilosModerno.jpg'
-import Parallax from '../components/Parallax'
-import SimpleSlider from '../components/SliderDepo'
+import Parallax from '../components/parallax/Parallax'
+import SliderDepo from '../components/slideDepo/SliderDepo'
 import Galeria from '../components/Galeria';
-
+import HeroBase from '../components/heroBase/HeroBase';
+import BannerHome from '../components/bannerHome/BannerHome'
 
 export default function Home(){
     return (
         <main>
+            <HeroBase 
+            tipo="componente"
+            conteudo={<BannerHome />}
+            />
             <p>Pagina Home</p>
             <Container>
             <div className="s_estilosModerno">
@@ -44,7 +49,7 @@ export default function Home(){
                 </div>                    
             </Container>
 
-            <Parallax title="Depoimentos" conteudo={<SimpleSlider />} /> 
+            <Parallax title="Depoimentos" conteudo={<SliderDepo />} customClass="depoimentos"/> 
             <Galeria />
         </main>       
     

@@ -1,5 +1,5 @@
 .parallax{
-    background: linear-gradient(rgba(0, 0, 0, .56), rgba(0, 0, 0, .56)), url(../assets/bg_experiencia.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .56), rgba(0, 0, 0, .56)), url(../../assets/bg_experiencia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -20,6 +20,12 @@
   margin: 0 auto;
   text-align: center;
   padding: 20px 18px;
+}
+.depoimentos{
+  background: linear-gradient(rgba(0, 0, 0, .56), rgba(0, 0, 0, .56)), url(../../assets/bg_depoimentos.jpg);  
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 366px;  
 }
 .slick-slider .slick-track, .slick-slider .slick-list{
   height: auto;

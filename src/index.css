@@ -247,6 +247,115 @@ p{
 }
 
 
+/*PAGINA CONTATO*/
+.btn{
+  color: #E75A7A;
+  font-weight: 500;
+  padding: 8px 15px;
+  font-family: 'Poppins', sans-serif;  
+  border-radius: 40px;
+  border: 1px solid #F59275;
+  margin-left: 27px;
+}
+.btn:hover{    
+  color: #fff;
+  background: #E75A7A;      
+}
+
+.contatoMain{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+.formTitlePromocao{
+  padding: 20px;
+  max-width: 510px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+.contatoMain__form, .contatoMain-info{      
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+form{
+  border: 1px solid rgba(55, 25, 59, 0.21);
+  max-width: 510px;
+  width: 100%;
+  padding: 0 50px 20px;
+}
+form label{
+  margin: 20px 0 5px; 
+  display: inline-block;
+  color: #37193B;
+  font-weight: 500;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+form input{
+  display: block;
+  padding: 7px;
+  width: 100%;
+  border: 1px solid #C0C0C0;  
+  outline-color: #E75A7A;    
+}
+form input::placeholder{
+  color: #B0AE9E;
+}
+.btn-form{
+  margin:20px 0;
+  border-radius: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.contatoMain__maps{
+  max-width: 600px;
+  width: 100%;
+  max-height: 350px;
+}
+.contatoMain-info{    
+  margin: 40px 0 80px;
+}
+.contatoMain-info > div{
+  background-color: #37193B;
+  padding: 18px;
+}
+.contatoMain-info div:nth-of-type(1){
+  max-width: 510px;
+  width: 100%;
+}
+.contatoMain-info div:nth-of-type(2){
+  max-width: 600px; 
+  width: 100%; 
+}
+.contatoMain-info h4{
+  margin-bottom: 10px;
+  color: #E75A7A;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contatoMain-info i{
+  color: #fff;
+  margin-right: 8px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.contatoMain-info > div > p{
+  color: #F59275;
+  margin-top: 10px;
+}
+.contatoMain-info a{
+  color: #F59275;
+  font-family: 'Poppins';
+  font-weight: 200;
+  margin: 10px 0;
+  display: block;
+}
+
+/*FOOTER*/
 footer{
   background: var(--primary-color);
   min-height: 301px;
