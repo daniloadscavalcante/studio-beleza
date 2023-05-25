@@ -484,6 +484,68 @@ form input::placeholder{
 /*Fim PG cabelo*/
 
 
+/*PG Depilação*/
+.depilacao, .unhaDeGel{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  width: 100%;
+  margin:  50px auto;
+  border: 1px solid #F59275;
+  border-radius: 0 58px 0 164px;
+  padding: 50px 0;
+}
+.depilacao__img img{
+  max-width: 100%;    
+}
+.depilacao__titulo, .unhaDegel__titulo{
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+}
+.depilacao__titulo::after{
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: #F59275;
+  display: block;
+}
+.depilacao__texto, .unhaDegel__texto{
+  max-width: 455px;
+  width: 100%;    
+  font-weight: 500;
+}
+.depilacao__texto p{  
+  font-weight: 500;
+}
+.depilacao-list{
+  display: flex;    
+  margin-top: 20px;
+}
+.depilacao-list ul + ul{
+  margin: 0 50px;        
+}
+.depilacao__titulo-list{
+  font-size: 19px;
+  color: #000;
+  font-weight: 500;
+}
+.depilacao-list__beneTipos li{
+  display: block;
+  font-size: 12px;
+  font-weight: 200;
+  color: #000;
+  font-family: 'Poppins', sans-serif;  
+  margin-left: 2px;
+}
+.depilacao__btn{
+  margin: 0;
+}
+.depilacao--Cera{
+  border-radius: 58px 0 164px 0;
+}
+/*Fim PG Depilação*/
+
 
 
 /*FOOTER*/
