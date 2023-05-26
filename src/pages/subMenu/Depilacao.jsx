@@ -33,7 +33,7 @@ export default function Depilacao(){
                         <li>Depilaçao Masculina</li>
                     </ul>
                 </div>
-                <a href="#" className="btn  depilacao__btn">Saiba mais</a>  
+                <a href="#" className="btn  depilacao__btn">Saiba mais</a> 
             </div>                    
         </section>
    

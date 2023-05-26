@@ -547,6 +547,148 @@ form input::placeholder{
 /*Fim PG Depilação*/
 
 
+/*PG unha de gel*/
+.unhaDeGel{
+  border-radius: 0;
+}
+.unhaDeGel__btn{
+  margin: 20px 0;
+}
+.servicoUnhagel{
+  background-color:  rgba(231, 90, 122, 0.12);
+  padding: 40px 0;
+}
+.serv{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;    
+  margin-bottom: 20px;
+}
+.servicoUnhagel__titulo{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.servicoUnhagel__list{
+  column-count: 2;
+  padding: 0 20px;
+}
+.servicoUnhagel__list li{
+  display: block; 
+  color: #F59275; 
+  font-weight: 500;  
+}
+.servicoUnhagel__list li + li{
+  margin: 10px 0;
+}
+.iconUnhagel{
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 3px;
+}
+.imgs-ilustrativa{    
+  max-width: 1200px;
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;    
+  border: 1px solid #F59275;
+}
+.imgs-ilustrativa__servico{   
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+  padding: 50px 0 40px;       
+}
+.imgs-ilustrativa__servico figure{
+  overflow: hidden;
+}
+.imgs-ilustrativa__servico img{
+  transition: all .3s linear;
+}
+.imgs-ilustrativa__servico img:hover{
+  transform: scale(1.1);
+  transition: all .3s linear;
+}
+.imgs-ilustrativa__btn{
+  margin-bottom: 40px;
+}
+/*Fim PG unha de gel*/
+
+/*PG estetica*/
+.banner-estetica{
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(231, 90, 122, .5));
+ 
+}
+
+.estetica-servico{
+  background: rgba(231, 90, 122, 0.12);
+  margin: 60px 0;
+  padding: 9px;    
+}
+.servico__titulo--estetica{
+  font-size: 24px;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.servico__lista--coluna{
+  column-count: 2;
+  display: block;
+  margin-left: 10px;       
+  width: 60%;    
+}
+.servico__lista--coluna li{
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+}
+.servico__btn-estetica{
+  margin: 0;
+}
+.estetica-prev__titulo{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bronzeHarmonizacao{
+  margin-top: 80px;      
+}
+.bronze-titulo{
+  text-align: center;
+}
+.bronzeamento{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;  
+  margin: 50px 0;      
+  padding: 10px 0;
+}
+.bronzeamento__img{     
+  width: 26%;  
+  margin: 40px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.microagulhamento{
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;    
+}
+.microagulhamento p{
+  margin: 20px 0;
+}
+.microagulhamento-img{
+  max-width: 350px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 22px;
+  overflow: hidden;
+  margin: 20px 0;    
+}
+
 
 /*FOOTER*/
 footer{
