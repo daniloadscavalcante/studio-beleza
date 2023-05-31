@@ -5,7 +5,7 @@ import "./Galeria.css"
 export default function Galeria(){
 
     const [galeria, setGaleria] = useState([])
-    
+    const [novosdados, setnovosdados] = useState([])
 
     useEffect(() =>{
         fetch ('./dados/galeria.json')
@@ -17,6 +17,14 @@ export default function Galeria(){
         })
         .catch((error) => console.log("não pegou os dados")) 
     
+        fetch ('./dados/test.json')
+            .then((r)=> r.json())
+            .then((dados)=>{
+                console.log(dados.galeria);
+                setnovosdados(dados.galeria)
+            })
+            .catch((error) => console.log("não pegou os dados test")) 
+
     }, [])
 
 
@@ -27,8 +35,13 @@ export default function Galeria(){
         <section className="introducao">            
            <h2>Conheça um pouco do<br/> nosso trabalho</h2>          
         </section>         
-        
-        <section className="galeria">  
+        <section className="galeria"> 
+        {galeria.map((item, index) => <div key={index} className={item.style}>
+                <img src={item.url} alt={item.alt}/>
+            </div> )}
+        </section>
+        {novosdados.map((novosdado, index) => <div key={index}><span>{novosdado.src}</span></div>)}
+        {/* {galeria.length > 0 ? <section className="galeria">  
             <div className="galeriaImg1 w-3 h-2" >
                 <img src={galeria[0].url} alt={galeria[0].alt}/>
             </div> 
@@ -67,7 +80,7 @@ export default function Galeria(){
             </div>
             
             
-        </section>         
+        </section> : null} */}
                      
     </main>
     
