@@ -11,42 +11,52 @@
     },
     {
         "url": "/img/galeriaImg3.jpg",
-        "alt":"cabelo cacheado"
+        "alt":"cabelo cacheado",
+        "style":"galeriaImg3 w-3 h-2"
     },
     {
         "url": "/img/galeriaImg4.jpg",
-        "alt":"cabelo loiro"
+        "alt":"cabelo loiro",
+        "style":"galeriaImg4 w-3 h-2"
     },
     {
         "url": "/img/galeriaImg5.jpg",
-        "alt":"cabelo liso ondulado"
+        "alt":"cabelo liso ondulado",
+        "style":"galeriaImg5 w-3 h-2"
     },
     {
         "url": "/img/galeriaImg6.jpg",
-        "alt":"cabelo cacheado"
+        "alt":"cabelo cacheado",
+        "style":"galeriaImg6 w-3 h-2"
     },
     {
         "url": "/img/galeriaImg7.jpg",
-        "alt":"cabelo loiro"
+        "alt":"cabelo loiro",
+        "style":"galeriaImg7 w-2 h-3"
     },
     {
         "url": "/img/galeriaImg8.jpg",
-        "alt":"cabelo liso ondulado"
+        "alt":"cabelo liso ondulado",
+        "style":"galeriaImg8 w-4 h-2"
     },
     {
         "url": "/img/galeriaImg9.jpg",
-        "alt":"cabelo cacheado"
+        "alt":"cabelo cacheado",
+        "style":"galeriaImg9 w-3 h-3"
     },
     {
         "url": "/img/galeriaImg10.jpg",
-        "alt":"cabelo loiro"
+        "alt":"cabelo loiro",
+        "style":"galeriaImg10 w-4 h-2"
     },
     {
         "url": "/img/galeriaImg11.jpg",
-        "alt":"cabelo liso ondulado"
+        "alt":"cabelo liso ondulado",
+        "style":"galeriaImg11 w-3 h-2"
     },
     {
         "url": "/img/galeriaImg12.jpg",
-        "alt":"cabelo cacheado"
+        "alt":"cabelo cacheado",
+        "style":"galeriaImg12 w-3 h-2" 
     }
 ]

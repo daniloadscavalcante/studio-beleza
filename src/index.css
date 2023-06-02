@@ -689,6 +689,92 @@ form input::placeholder{
   margin: 20px 0;    
 }
 
+/*PG maquiagem*/
+
+.maquiagem{
+  text-align: center;
+}
+.iconePincel{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.maquiagem-servico{    
+  background: rgba(217, 214, 223, 0.41);
+  margin: 60px 0;
+  padding: 20px 50px;
+}
+.servico{   
+  align-items: center;
+  column-gap: 40px;
+}
+.servico__lista--maquiagem{
+  column-count: 1;
+  display: block;        
+  width: 40%;       
+}
+.servico__lista--maquiagem li{    
+  margin-left: 5px;       
+}
+.servico__btn--maquiagem{
+  margin: 20px 0;
+}
+.maquiagem-info{
+  display: flex;
+  justify-content: space-evenly;
+ 
+  padding: 80px;
+  background-image: url(../src/assets/baldeMaquiagem.png);
+  background-repeat: no-repeat;
+  background-position: 91% -4%;
+}
+.maquiagem-info__img img{
+  height: auto;
+}
+.maquiagem-info__texto{    
+  width: 400px;
+  margin-top: 15px;
+}
+.maquiagem-info__texto h4{
+  color: black;   
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+.maquiagem-info__texto p{     
+  font-size: 12px;   
+}
+.maquiagem-info__texto p:nth-of-type(1){   
+  margin-bottom: 20px;
+  font-size: 12px;   
+}
+/*Fim pg maquiagem*/
+
+
+/*LIGHTBOXX -- GALERIA*/
+.lightbox{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);     
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.lightbox span{
+  position: absolute;
+  top: 34px;
+  z-index: 100;
+  color: #fff;
+  font-size: 56px;
+  user-select: none;
+  cursor: pointer;
+}
+.lightbox img{
+  width: auto;
+  height: 400px;
+}
 
 /*FOOTER*/
 footer{
