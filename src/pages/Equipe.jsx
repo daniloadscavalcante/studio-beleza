@@ -20,8 +20,7 @@ export default function Equipe(){
            
         }, [])   
         
-    return (
-    
+    return (   
         
         <main>
             <HeroBase 

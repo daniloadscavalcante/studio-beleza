@@ -4,6 +4,7 @@ import img3 from '../../assets/img2-cabelo.jpg'
 import img4 from '../../assets/img3-cabelo.jpg'
 import svg from '../../assets/secadorPng 1.png'
 import HeroBase from '../../components/heroBase/HeroBase'
+import Button from '../../layout/Button'
 import Container from '../../layout/Container'
 
 
@@ -21,16 +22,16 @@ export default function Cabelo(){
                 
         
                 <section className="prevImgCabelo">
-                    <div className="prevImgCabelo__img">
+                    <div className="prevImg">
                         <img src={img} alt="mulher cabelo cacheado"/>
                     </div>
-                    <div className="prevImgCabelo__img">
+                    <div className="prevImg">
                         <img src={img2} alt="mulher cabelo liso"/>
                     </div>
-                    <div className="prevImgCabelo__img">
+                    <div className="prevImg">
                         <img src={img3} alt="mulher cabelo loiro cacheado"/>
                     </div>
-                    <div className="prevImgCabelo__img">
+                    <div className="prevImg">
                         <img src={img4} alt="mulher cabelo descolorido"/>
                     </div>
                 </section>
@@ -66,10 +67,10 @@ export default function Cabelo(){
                                 </div>
                             </ul>
                             <div className="servico__imgSecador">
-                                <img src={svg} alt=""/>
+                                <img src={svg} alt="imagem secador"/>
                             </div>
                         </div>
-                        <a href="#" className="btn servico__btn">Saiba mais</a>
+                        <Button url="https://google.com"/>
                     </div>
                 </section>
             </Container>

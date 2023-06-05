@@ -30,14 +30,11 @@ export default function Home(){
                 />                    
             </div>
             </Container>                
-
-                <Parallax 
+              <Parallax 
                     title="Venha ter uma experiencia incrivel com um dia gratis"
                     type="texto"
                     conteudo= "is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whenis simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
-                    />  
-                
-            
+                    />             
             <Container>                
                 <BlocoText                 
                 customClass="b_texto-right"

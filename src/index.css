@@ -192,63 +192,25 @@ p{
   justify-content: space-between;        
 }
 
-
-.s_estilosModerno p{
-  margin: 30px 40px 30px 0;   
-  line-height: 1.5; 
-}
 .s_estilosModerno .s_estiloModerno__btn{
   border: none;
   padding: 8px 12px;
   background-color: #37193B;
   color: #fff;
 }
-.s_estilosModerno .b_texto{
-  max-width: 620px;
-  width: 100%;    
-  padding: 30px 20px;
-}
-
 .s_estilosModerno p{
   margin: 30px 40px 30px 0;   
   line-height: 1.5; 
 }
-.s_estilosModerno .s_estiloModerno__btn{
-  border: none;
-  padding: 8px 12px;
-  background-color: #37193B;
-  color: #fff;
-}
 
-
-
-.experiencia__info{
-  max-width: 610px;
-  width: 100%;
-  margin: 0 auto;
-  color: var(--second-color);
-  text-align: center; 
-  padding: 0 10px;    
-}
-.experience__desc{    
-  text-align: center;
-  line-height: 1.5;
-  padding: 20px 15px;
-}
+/* estilização do carosel*/
 .depo-carrosel{    
-  max-width: 700px;
+  max-width: 700px; 
   margin: 0 auto;
 }
-.depoimentos__info{
-  max-width: 100%;
-  margin: auto;
-  color: #fff;
-  text-align: center;   
-}
-.depoimentos__texto{
-  position: relative;
-  padding-top: 20px;
-}
+/* fim*/
+
+/* galeria home*/
 .galeria-home__titulo{
   text-align: center; 
   margin: 30px 0;   
@@ -307,19 +269,7 @@ p{
 
 
 /*PAGINA CONTATO*/
-.btn{
-  color: #E75A7A;
-  font-weight: 500;
-  padding: 8px 15px;
-  font-family: 'Poppins', sans-serif;  
-  border-radius: 40px;
-  border: 1px solid #F59275;
-  margin-left: 27px;
-}
-.btn:hover{    
-  color: #fff;
-  background: #E75A7A;      
-}
+
 
 .contatoMain{
   max-width: 1200px;
@@ -416,7 +366,6 @@ form input::placeholder{
 
 
 /*CABELOOOOOO*/
-
 .introducao__texto{
   text-align: center;
   margin-bottom: 50px;
@@ -425,15 +374,15 @@ form input::placeholder{
   display: flex;
   justify-content: center;
 }
-.prevImgCabelo__img{
+.prevImg{
   margin: 0 20px;
   overflow: hidden;  
   border-radius: 22px;  
 }
-.prevImgCabelo__img img{    
+.prevImg img{    
   transition: all .3s linear;
 }
-.prevImgCabelo__img img:hover{
+.prevImg img:hover{
   transform: scale(1.1);    
 }
 .estetica-servico__center, .maquiagem-servico__center, .cabelo-servico__center{
@@ -467,19 +416,6 @@ form input::placeholder{
 .servico__lista li > .fa-check{
   color: #E75A7A;
   margin-left: 5px;
-}
-.btn{
-  color: #E75A7A;
-  font-weight: 500;
-  padding: 8px 15px;
-  font-family: 'Poppins', sans-serif;  
-  border-radius: 40px;
-  border: 1px solid #F59275;
-  margin-left: 27px;
-}
-.btn:hover{    
-  color: #fff;
-  background: #E75A7A;      
 }
 /*Fim PG cabelo*/
 

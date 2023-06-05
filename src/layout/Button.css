@@ -1,0 +1,20 @@
+button{
+    border: none;
+    background: none;
+  }
+.btn{
+    color: #E75A7A;
+    font-weight: 500;
+    padding: 8px 15px;
+    font-family: 'Poppins', sans-serif;  
+    border-radius: 40px;
+    border: 1px solid #F59275;
+    margin-left: 27px;
+  }
+.btn:hover{    
+    color: #fff;
+    background: #E75A7A;      
+  }
+.btnCustom{
+    margin: 0;
+}

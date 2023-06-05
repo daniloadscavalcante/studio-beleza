@@ -4,8 +4,7 @@
     margin: 46px auto 0;
     padding: 10px;
     display: flex; 
-    justify-content: space-between;   
-    border: 1px solid red; 
+    justify-content: space-between;       
 }
 .column{
     flex-direction: column;
