@@ -10,7 +10,7 @@ export default function Depilacao(){
             titulo="Depilação"
             bg="/img/banner-depilacao.jpg"
             />
-            <p>pagina Depilação</p>
+            
             <section className="depilacao">
             <div className="depilacao__img">
                 <img src={img} alt="depilação a laser"/>

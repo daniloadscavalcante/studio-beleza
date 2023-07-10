@@ -12,7 +12,7 @@ export default function UnhaGel(){
                 titulo="Unha de Gel"
                 bg ="/img/banner-unhaDeGel.jpg"
                 />
-                <p>paginha unha de gel</p>
+                
             <section className="unhaDeGel">
                 <div className="unhaDegel__img">
                     <img src={img1} alt="depilação a laser"/>

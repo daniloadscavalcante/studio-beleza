@@ -8,8 +8,7 @@ export default function Contato(){
         titulo ="Contato"
         bg ="/img/banner-maquiagem.jpg"
         />
-        <p>Pagina Contato</p>
-
+        
         <div>
             <h2 className="title-center">Entre em contato para mais<br/>informações</h2>  
         </div>         

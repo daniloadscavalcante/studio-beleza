@@ -17,7 +17,7 @@ export default function Home(){
             tipo="componente"
             conteudo={<BannerHome />}
             />
-            <p>Pagina Home</p>
+            
             <Container>
             <div className="s_estilosModerno">
                 <div className="s_estilosModerno__img">

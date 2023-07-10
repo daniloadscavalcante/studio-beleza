@@ -28,7 +28,7 @@ export default function Galeria(){
         titulo="galeria"
         bg="/img/banner-geral.jpg"
         />
-        <p>Pagina Galeria</p>
+        
         <div>            
            <h2 className="title-center">Conheça um pouco do<br/> nosso trabalho</h2>          
         </div>         

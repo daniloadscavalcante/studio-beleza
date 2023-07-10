@@ -6,3 +6,10 @@
 .b_texto-right{
     text-align: right;
 }
+@media only screen and (min-width: 620px) and (max-width:980px){
+  .b_texto{
+    max-width: 456px;
+    width: 100%;    
+    padding: 0px 24px;
+  }
+}

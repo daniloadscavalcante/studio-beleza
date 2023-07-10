@@ -1,15 +1,32 @@
 import {Link} from 'react-router-dom'
+import { useState } from 'react'
 
 export default function Navbar(){
+    const [ativo, setAtivo] = useState(false)
+
+   function handleToggle(){
+    setAtivo(!ativo)  
+    console.log('clicou')  
+   }
+   function handlehideMenu(){
+    setAtivo(false)
+   }
     return(
         <nav className='nav-wrapper'>
-            <ul className='menu'>
+            <div className={`toggle ${ativo ? 'Ativo' : ''}`} onClick={handleToggle}>
+                <span className="line"></span>
+                <span className="line"></span>
+                <span className="line"></span>
+            </div>
+            
+            <ul className={`menu ${ativo ? 'Ativo' : ''}`} onClick={handlehideMenu}>
+                <span className='close-toggle'>&times;</span>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/servicos" className='item'>Serviços</Link>                
+                <li><Link to="#" className='item'>Serviços</Link>                
                     <ul className= 'sub-menu'>
                         <li><Link to="/cabelo">Cabelo</Link></li>
                         <li><Link to="/depilacao">Depilação</Link></li>
-                        <li><Link to="/manicure" className='arrow-downM'>Manicure</Link>
+                        <li><Link to="#" className='arrow-downM'>Manicure</Link>
                             <ul className='sub-menu-M'>
                                 <li><Link to="/unhadegel">Unha de Gel </Link></li>
                             </ul>

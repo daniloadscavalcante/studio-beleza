@@ -12,7 +12,7 @@ export default function Maquiagem(){
         titulo="maquiagem"
         bg="/img/banner-maquiagem.jpg"
         />
-        <p>pagina Maquiagem</p>
+        
     <section className="maquiagem">
         <div className="iconePincel">
             <img src={icone} alt="icone pincel" styles="width: 100px;"/>

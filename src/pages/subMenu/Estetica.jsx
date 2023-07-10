@@ -9,23 +9,23 @@ export default function Estetica(){
             titulo=" Estética"
             bg="/img/banner-estetica.jpg"
             />
-            <p>pagina Estetica</p>
+            
         
         <Container>
         <p className="introducao__texto">você. São especializados em criar um look único e treinar você para os cuidados diários. Oferecemos uma variedade de serviços como: corte masculino e feminino, coloração, tonalização, reflexos, mechas, luzes, ombre hair, tratamentos capilares e penteados para ocasiões especiais. Você pode se assegurar de estar recebendo um tratamento individualizado e com resultado.</p>
         </Container>
 
         <section className="prevImgEstetica">
-            <div className="prevImgCabelo__img">
+            <div className="prevImgEstetica__img prevImg">
                 <img src="/thumbs/img-estetica.jpg" alt="mulher maquiada"/>
             </div>
-            <div className="prevImgCabelo__img">
+            <div className="prevImgEstetica__img prevImg">
                 <img src="./thumbs/img2-estetica.jpg" alt="mulher com cilios  grande"/>
             </div>
-            <div className="prevImgCabelo__img">
+            <div className="prevImgEstetica__img prevImg">
                 <img src="./thumbs/img3-estetica.jpg" alt="mulher maquiada"/>
             </div>
-            <div className="prevImgCabelo__img">
+            <div className="prevImgEstetica__img prevImg">
                 <img src="./thumbs/img4-estetica.jpg" alt="mulher maquiada com gliter"/>
             </div>
         </section>
@@ -48,23 +48,23 @@ export default function Estetica(){
                         <img src="/img/rosto-estetica.png" alt="imagem ilustrativa"/>
                     </div>
                 </div>
-                <a href="#" className="btn servico__btn-estetica">Saiba mais</a>
+                <a href="#" className="btn servico__btn-estetica btnCustom">Saiba mais</a>
             </div>
         </section>
 
         <section className="estetica-prev">
             <h2 className="estetica-prev__titulo">Tecnicas e estilos Inovadores</h2>
         <div className="prevImgEstetica">
-                <div className="prevImgCabelo__img">
+                <div className="prevImgEstetica__img prevImg">
                     <img src="/thumbs/img-tecnica.jpg" alt="sobrancelha de rena"/>
                 </div>
-                <div className="prevImgCabelo__img">
+                <div className="prevImgEstetica__img prevImg">
                     <img src="/thumbs/img2-tecnica.jpg" alt="Maquiagem inovadora"/>
                 </div>
-                <div className="prevImgCabelo__img">
+                <div className="prevImgEstetica__img prevImg">
                     <img src="/thumbs/img3-tecnica.jpg" alt="tecnica fio a fio "/>
                 </div>
-                <div className="prevImgCabelo__img">
+                <div className="prevImgEstetica__img prevImg">
                     <img src="/thumbs/img4-tecnica.jpg" alt="maquiagem tradicional"/>
                 </div>
             </div>

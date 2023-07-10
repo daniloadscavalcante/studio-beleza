@@ -62,10 +62,8 @@ p{
   padding: 0 50px;
   height: 50px;        
 }
-.nav-wrapper{
-  background: var(--primary-color);
-  padding: 0 50px;
-  height: 50px;        
+.nav-wrapper .menu .close-toggle{
+  display: none;
 }
 .nav-wrapper .menu{
   display: flex;
@@ -217,6 +215,7 @@ p{
 }
 .galeria-home__cards{
   max-width: 1100px;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -240,10 +239,329 @@ p{
 }
 .galeria-home__card__img:hover{
   transform: scale(1.1);
-  transition: all .3s linear;
-  cursor: pointer;
+  transition: all .3s linear;  
 }
 
+
+/*CABELOOOOOO*/
+.introducao__texto{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.prevImgCabelo, .prevImgEstetica, .prevImgEstetica__img{
+  display: flex;
+  justify-content: center;
+}
+.prevImg{
+  margin: 0 20px;
+  overflow: hidden;  
+  border-radius: 22px;  
+}
+.prevImg img{    
+  transition: all .3s linear;
+}
+.prevImg img:hover{
+  transform: scale(1.1);    
+}
+.estetica-servico__center, .maquiagem-servico__center, .cabelo-servico__center{
+  max-width: 950px;
+  width: 100%;
+  margin: 70px auto;
+}
+.servico{
+  display: flex;
+  max-width: 1000px;   
+  margin: auto;    
+}
+.servico__titulo{
+  color: #000;
+}
+.servico__lista{
+  width: 100%;
+  display: flex;  
+  align-items: center;  
+  font-family: 'Poppins', sans-serif;   
+  margin-left: 27px;   
+}
+.servico__lista-coluna + .servico__lista-coluna{
+  margin: 0 50px;
+}
+.servico__lista li{
+  display: block;  
+  color: #000;  
+  position: relative;
+}
+.servico__lista li > .fa-check{
+  color: #E75A7A;
+  margin-left: 5px;
+}
+/*Fim PG cabelo*/
+
+
+/*PG Depilação*/
+.depilacao, .unhaDeGel{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  width: 97%;
+  margin:  50px auto;
+  border: 1px solid #F59275;
+  border-radius: 0 58px 0 164px;
+  padding: 50px 0;  
+}
+.depilacao__img img{
+  max-width: 100%;    
+}
+.depilacao__titulo, .unhaDegel__titulo{
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+}
+.depilacao__titulo::after{
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: #F59275;
+  display: block;
+}
+.depilacao__texto, .unhaDegel__texto{
+  max-width: 455px;
+  width: 100%;    
+  font-weight: 500;
+  padding: 0 20px;
+}
+.depilacao__texto p{  
+  font-weight: 500;
+}
+.depilacao-list{
+  display: flex;    
+  margin-top: 20px;
+}
+.depilacao-list ul + ul{
+  margin: 0 50px;        
+}
+.depilacao__titulo-list{
+  font-size: 19px;
+  color: #000;
+  font-weight: 500;
+}
+.depilacao-list__beneTipos li{
+  display: block;
+  font-size: 12px;
+  font-weight: 200;
+  color: #000;
+  font-family: 'Poppins', sans-serif;  
+  margin-left: 2px;
+}
+.depilacao__btn{
+  margin: 0!important; 
+}
+.depilacao--Cera{
+  border-radius: 58px 0 164px 0;
+}
+/*Fim PG Depilação*/
+
+
+/*PG manicure/unha de gel*/
+.unhaDeGel{
+  border-radius: 0;
+}
+.unhaDeGel__btn{
+  margin: 20px 0!important;
+}
+.servicoUnhagel{
+  background-color:  rgba(231, 90, 122, 0.12);
+  padding: 40px 0;
+}
+.serv{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;    
+  margin-bottom: 20px;
+}
+.servicoUnhagel__titulo{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.servicoUnhagel__list{
+  column-count: 2;
+  padding: 0 20px;
+}
+.servicoUnhagel__list li{
+  display: block; 
+  color: #F59275; 
+  font-weight: 500;  
+}
+.servicoUnhagel__list li + li{
+  margin: 10px 0;
+}
+.iconUnhagel{
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 3px;
+}
+.imgs-ilustrativa{    
+  max-width: 1200px;
+  width: 95%;
+  margin: 50px auto;
+  text-align: center;    
+  border: 1px solid #F59275;
+}
+.imgs-ilustrativa__servico{   
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+  padding: 50px 0 40px;       
+}
+.imgs-ilustrativa__servico figure{
+  overflow: hidden;
+}
+.imgs-ilustrativa__servico img{
+  transition: all .3s linear;
+}
+.imgs-ilustrativa__servico img:hover{
+  transform: scale(1.1);
+  transition: all .3s linear;
+}
+.imgs-ilustrativa__btn{
+  margin-bottom: 40px;
+}
+/*Fim PG unha de gel*/
+
+/*PG estetica*/
+.banner-estetica{
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(231, 90, 122, .5));
+ 
+}
+
+.estetica-servico{
+  background: rgba(231, 90, 122, 0.12);
+  margin: 60px 0;
+  padding: 9px;    
+}
+.servico__titulo--estetica{
+  font-size: 24px;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.servico__lista--coluna{
+  column-count: 2;
+  display: block;
+  margin-left: 10px;       
+  width: 60%;    
+}
+.servico__lista--coluna li{
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+}
+.estetica-prev__titulo{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bronzeHarmonizacao{
+  margin-top: 80px;      
+}
+.bronze-titulo{
+  text-align: center;
+}
+.bronzeamento{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;  
+  margin: 50px 0;      
+  padding: 10px 0;
+}
+.bronzeamento__img{     
+  width: 26%;  
+  margin: 40px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.microagulhamento{
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;    
+}
+.microagulhamento p{
+  margin: 20px 0;
+}
+.microagulhamento-img{
+  max-width: 350px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 22px;
+  overflow: hidden;
+  margin: 20px 0;    
+}
+
+/*PG maquiagem*/
+.maquiagem{
+  text-align: center;
+}
+.iconePincel{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.maquiagem-servico{    
+  background: rgba(217, 214, 223, 0.41);
+  margin: 60px 0;
+  padding: 20px 50px;
+}
+.servico{   
+  align-items: center;
+  column-gap: 40px;
+}
+.servico__lista--maquiagem{
+  column-count: 1;
+  display: block;        
+  width: 40%;       
+}
+.servico__lista--maquiagem li{    
+  margin-left: 5px;       
+}
+.servico__btn--maquiagem{
+  margin: 20px 0 ; 
+  margin-left: 0 !important;
+}
+.maquiagem-info{
+  display: flex;
+  justify-content: space-evenly;
+ 
+  padding: 80px;
+  background-image: url(../src/assets/baldeMaquiagem.png);
+  background-repeat: no-repeat;
+  background-position: 91% -4%;
+}
+.maquiagem-info__img img{
+  height: auto;
+}
+.maquiagem-info__texto{    
+  width: 400px;
+  margin-top: 15px;
+}
+.maquiagem-info__texto h4{
+  color: black;   
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+.maquiagem-info__texto p{     
+  font-size: 12px;   
+}
+.maquiagem-info__texto p:nth-of-type(1){   
+  margin-bottom: 20px;
+  font-size: 12px;   
+}
+/*Fim pg maquiagem*/
+
+/*pg equipe*/
 .profissionais{
   max-width: 1200px;
   width: 100%;
@@ -266,11 +584,7 @@ p{
   color: #E75A7A;
   font-weight: 500;
 }
-
-
 /*PAGINA CONTATO*/
-
-
 .contatoMain{
   max-width: 1200px;
   width: 100%;
@@ -364,354 +678,6 @@ form input::placeholder{
   display: block;
 }
 
-
-/*CABELOOOOOO*/
-.introducao__texto{
-  text-align: center;
-  margin-bottom: 50px;
-}
-.prevImgCabelo, .prevImgEstetica{
-  display: flex;
-  justify-content: center;
-}
-.prevImg{
-  margin: 0 20px;
-  overflow: hidden;  
-  border-radius: 22px;  
-}
-.prevImg img{    
-  transition: all .3s linear;
-}
-.prevImg img:hover{
-  transform: scale(1.1);    
-}
-.estetica-servico__center, .maquiagem-servico__center, .cabelo-servico__center{
-  max-width: 950px;
-  width: 100%;
-  margin: 70px auto;
-}
-.servico{
-  display: flex;
-  max-width: 1000px;   
-  margin: auto;    
-}
-.servico__titulo{
-  color: #000;
-}
-.servico__lista{
-  width: 100%;
-  display: flex;  
-  align-items: center;  
-  font-family: 'Poppins', sans-serif;   
-  margin-left: 27px;   
-}
-.servico__lista-coluna + .servico__lista-coluna{
-  margin: 0 50px;
-}
-.servico__lista li{
-  display: block;  
-  color: #000;  
-  position: relative;
-}
-.servico__lista li > .fa-check{
-  color: #E75A7A;
-  margin-left: 5px;
-}
-/*Fim PG cabelo*/
-
-
-/*PG Depilação*/
-.depilacao, .unhaDeGel{
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 1200px;
-  width: 100%;
-  margin:  50px auto;
-  border: 1px solid #F59275;
-  border-radius: 0 58px 0 164px;
-  padding: 50px 0;
-}
-.depilacao__img img{
-  max-width: 100%;    
-}
-.depilacao__titulo, .unhaDegel__titulo{
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #000;
-}
-.depilacao__titulo::after{
-  content: "";
-  width: 45px;
-  height: 3px;
-  background-color: #F59275;
-  display: block;
-}
-.depilacao__texto, .unhaDegel__texto{
-  max-width: 455px;
-  width: 100%;    
-  font-weight: 500;
-}
-.depilacao__texto p{  
-  font-weight: 500;
-}
-.depilacao-list{
-  display: flex;    
-  margin-top: 20px;
-}
-.depilacao-list ul + ul{
-  margin: 0 50px;        
-}
-.depilacao__titulo-list{
-  font-size: 19px;
-  color: #000;
-  font-weight: 500;
-}
-.depilacao-list__beneTipos li{
-  display: block;
-  font-size: 12px;
-  font-weight: 200;
-  color: #000;
-  font-family: 'Poppins', sans-serif;  
-  margin-left: 2px;
-}
-.depilacao__btn{
-  margin: 0;
-}
-.depilacao--Cera{
-  border-radius: 58px 0 164px 0;
-}
-/*Fim PG Depilação*/
-
-
-/*PG unha de gel*/
-.unhaDeGel{
-  border-radius: 0;
-}
-.unhaDeGel__btn{
-  margin: 20px 0;
-}
-.servicoUnhagel{
-  background-color:  rgba(231, 90, 122, 0.12);
-  padding: 40px 0;
-}
-.serv{
-  max-width: 600px;
-  width: 100%;
-  margin: auto;    
-  margin-bottom: 20px;
-}
-.servicoUnhagel__titulo{
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-}
-.servicoUnhagel__list{
-  column-count: 2;
-  padding: 0 20px;
-}
-.servicoUnhagel__list li{
-  display: block; 
-  color: #F59275; 
-  font-weight: 500;  
-}
-.servicoUnhagel__list li + li{
-  margin: 10px 0;
-}
-.iconUnhagel{
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  margin-left: 3px;
-}
-.imgs-ilustrativa{    
-  max-width: 1200px;
-  width: 100%;
-  margin: 50px auto;
-  text-align: center;    
-  border: 1px solid #F59275;
-}
-.imgs-ilustrativa__servico{   
-  display: flex;
-  justify-content: center;
-  column-gap: 45px;
-  padding: 50px 0 40px;       
-}
-.imgs-ilustrativa__servico figure{
-  overflow: hidden;
-}
-.imgs-ilustrativa__servico img{
-  transition: all .3s linear;
-}
-.imgs-ilustrativa__servico img:hover{
-  transform: scale(1.1);
-  transition: all .3s linear;
-}
-.imgs-ilustrativa__btn{
-  margin-bottom: 40px;
-}
-/*Fim PG unha de gel*/
-
-/*PG estetica*/
-.banner-estetica{
-  background: linear-gradient(rgba(0, 0, 0, .4), rgba(231, 90, 122, .5));
- 
-}
-
-.estetica-servico{
-  background: rgba(231, 90, 122, 0.12);
-  margin: 60px 0;
-  padding: 9px;    
-}
-.servico__titulo--estetica{
-  font-size: 24px;
-  margin: 20px 0;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-.servico__lista--coluna{
-  column-count: 2;
-  display: block;
-  margin-left: 10px;       
-  width: 60%;    
-}
-.servico__lista--coluna li{
-  text-transform: uppercase;
-  font-weight: 500;
-  line-height: 24px;
-}
-.servico__btn-estetica{
-  margin: 0;
-}
-.estetica-prev__titulo{
-  text-align: center;
-  margin-bottom: 50px;
-}
-.bronzeHarmonizacao{
-  margin-top: 80px;      
-}
-.bronze-titulo{
-  text-align: center;
-}
-.bronzeamento{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;  
-  margin: 50px 0;      
-  padding: 10px 0;
-}
-.bronzeamento__img{     
-  width: 26%;  
-  margin: 40px;
-  border-radius: 22px;
-  overflow: hidden;
-}
-
-.microagulhamento{
-  max-width: 900px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 50px;    
-}
-.microagulhamento p{
-  margin: 20px 0;
-}
-.microagulhamento-img{
-  max-width: 350px;
-  width: 100%;
-  display: inline-block;
-  border-radius: 22px;
-  overflow: hidden;
-  margin: 20px 0;    
-}
-
-/*PG maquiagem*/
-
-.maquiagem{
-  text-align: center;
-}
-.iconePincel{
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-}
-.maquiagem-servico{    
-  background: rgba(217, 214, 223, 0.41);
-  margin: 60px 0;
-  padding: 20px 50px;
-}
-.servico{   
-  align-items: center;
-  column-gap: 40px;
-}
-.servico__lista--maquiagem{
-  column-count: 1;
-  display: block;        
-  width: 40%;       
-}
-.servico__lista--maquiagem li{    
-  margin-left: 5px;       
-}
-.servico__btn--maquiagem{
-  margin: 20px 0;
-}
-.maquiagem-info{
-  display: flex;
-  justify-content: space-evenly;
- 
-  padding: 80px;
-  background-image: url(../src/assets/baldeMaquiagem.png);
-  background-repeat: no-repeat;
-  background-position: 91% -4%;
-}
-.maquiagem-info__img img{
-  height: auto;
-}
-.maquiagem-info__texto{    
-  width: 400px;
-  margin-top: 15px;
-}
-.maquiagem-info__texto h4{
-  color: black;   
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
-}
-.maquiagem-info__texto p{     
-  font-size: 12px;   
-}
-.maquiagem-info__texto p:nth-of-type(1){   
-  margin-bottom: 20px;
-  font-size: 12px;   
-}
-/*Fim pg maquiagem*/
-
-
-/*LIGHTBOXX -- GALERIA*/
-.lightbox{
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, .8);     
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-.lightbox span{
-  position: absolute;
-  top: 34px;
-  z-index: 100;
-  color: #fff;
-  font-size: 56px;
-  user-select: none;
-  cursor: pointer;
-}
-.lightbox img{
-  width: auto;
-  height: 400px;
-}
-
 /*FOOTER*/
 footer{
   background: var(--primary-color);
@@ -742,3 +708,463 @@ footer{
 .footer-contato__endereco{
   font-style: initial
 }
+.glider-next{
+  display: none;
+}
+/*Midia queries*/
+@media only screen and (min-width: 620px) and (max-width:980px){
+  h2{
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: 18px;
+  }
+  h4{
+      font-size: 15px;
+  }
+  p{
+      font-size: 12px;
+  }    
+  .s_estilosModerno .b_texto{
+      padding: 0 24px;
+  }
+  .s_estilosModerno p{
+      margin: 0;
+      font-size: 12px;
+  }
+  .experiencia, .depoimentos{
+      min-height: 300px;
+  }
+  .melhores-exp{
+      padding: 0 10px;
+  }
+  .melhores-exp__info{
+      padding: 0 24px;
+  }
+  .depoimentos{
+      margin-bottom: 60px;
+  }
+  .galeria__card{
+      max-width: 196px;
+      width: 100%;
+      overflow: hidden;
+      margin: 10px;    
+      transition: all .5s linear;
+  }
+  .cabelo-servico{
+      padding: 0 20px;
+  }
+  .servico__lista{
+      justify-content: space-around;
+      margin:20px 0;
+      font-size: 11px;
+  }
+  .servico__btn{
+      padding: 4px 11px;
+      margin-left: 13px;
+  }
+  .servico__imgSecador{
+      width: 31%;
+  }
+  .servico__imgSecador{
+      display:none;
+  }   
+  .depilacao__img img{
+      min-width: 287px;
+      max-height: 390px;
+      padding: 28px;
+      width: 80%;
+  }
+  
+  .unhaDeGel, .imgs-ilustrativa{
+      padding: 20px;
+  }  
+  .unhaDegel__texto{
+      padding: 20px;
+  }
+  /*PG estetica*/
+  .microagulhamento-img{
+      max-width: 34%;
+        
+  }
+  /*PG Maquiagem*/
+  .banner-maquiagem{
+      background-position: center center;
+  }
+  .maquiagem-info{
+      background-size: 14%;
+      background-position: 93% 0%;
+      column-gap: 20px;
+      padding: 80px 20px;
+  }
+  .maquiagem-info__img img{
+      max-width: 300px;       
+  }   
+  .maquiagem-info__texto h4{
+      font-size: 14px;
+  }
+  .estetica-servico__center, .maquiagem-servico__center, .cabelo-servico__center{
+    padding: 0 20px;
+  }
+  /*PG galeria*/
+  .galeria{
+      gap: 10px;
+      padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  h2{
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: 18px;
+  }
+  h4{
+      font-size: 15px;
+  }
+  p{
+      font-size: 13px;
+  }
+  .dock-bar{
+      display: none;
+  }
+  .nav-wrapper{
+      display: flex;
+      justify-content: right;
+      padding: 0 20px;
+      height: 70px; 
+  }
+  .toggle{    
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      cursor: pointer;       
+  }
+  .toggle .line{
+      display: block;
+      width: 35px;
+      height: 4px;
+      border-radius: 3px;
+      background: #E75A7A;
+      margin: 4px 0;
+  }
+  .close-toggle{        
+      text-align: right;
+      display: block;
+      width: 100%;
+      color: #fff;        
+      font-size: 35px;        
+      padding: 20px;
+      user-select: none;
+  }
+  .nav-wrapper .menu{
+      flex-direction: column;
+      justify-content: flex-start;  
+      align-items: center;      
+      background: #37193B;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      display: none;    
+      z-index: 1;             
+  }
+ .Ativo{
+    display: flex!important;
+ }
+  /* Sub-menu******************************8*/
+  .menu a.item::after{      
+      font-size: 22px;        
+      top: 13px;
+      right: -23px;        
+  } 
+  .sub-menu{      
+      background: var(--primary-color);
+      position: static;              
+      display: none;         
+      text-align: left;
+      width: 138px;              
+  }
+  .nav-wrapper .menu .sub-menu li a{
+      font-size: 17px;             
+  }      
+  .sub-menu .arrow-downM::after{        
+      font-size: 22px;        
+      top: -3px;
+      right: 0px;
+  } 
+  .sub-menu-M{
+      width: auto;
+  }
+  .nav-wrapper .menu a{
+      margin: 8px 0;
+      padding: 9px 0;             
+      font-size: 20px;
+  }   
+  .hero .slider{       
+      background-position: 70% 60%;        
+  } 
+  .s_estilosModerno{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px 17px;
+  }
+  .s_estilosModerno p{
+      margin: 10px 0;
+  }
+  .experiencia{
+      margin: 0;
+  }
+  .melhores-exp{
+      flex-direction: column-reverse;
+      margin: 35px 0;
+      padding: 0 16px;
+  }
+  .melhores-exp__info{
+      text-align: center;
+      padding-top: 30px;
+  }
+  .depoimentos{
+      margin: 0;
+  }
+  .galeria-home__cards{
+      padding: 0 0 80px;
+  }
+  .galeria-home__card{
+      max-width: 100%;
+      margin: 10px 18px;
+  }
+  .footer-center{
+      flex-direction: column;
+      text-align: center;        
+  }    
+  .footer-contato{
+      margin:  40px 0;
+  }
+  .banner-cabelo{
+      background-position: center center;
+  }
+  .introducao .introducao__texto{
+      padding: 0 10px;
+  }
+  .prevImgCabelo{
+      flex-direction: column; 
+      padding: 0 5px;       
+  }
+  .prevImgCabelo__img{
+      margin: 10px;
+  }
+  .servico__titulo{
+      text-align: center;
+      font-size: 18px;
+  }
+  .servico__lista{
+      flex-wrap: wrap;
+      font-size: 14px;
+      justify-content: start;
+      align-content: center;        
+  } 
+  .servico__imgSecador{
+      display:none;
+  } 
+  .center{
+      align-items: center;
+  }
+  .servico__lista-coluna{
+      padding: 20px 0;
+      min-width: 40%;
+      
+  }
+  .servico__lista-coluna + .servico__lista-coluna{
+      margin: 0;
+  }
+  .btn{
+      text-align: center;
+      width: 126px;
+      display: block;        
+      margin: 10px auto;
+  }
+  .hero__depilacao{
+      background-position: center center;
+  }
+  .depilacao{
+      flex-direction: column;
+      border-radius: 0;   
+      column-gap: 20px;   
+      padding: 50px 18px;         
+  }
+  .depilacao--Cera{
+      flex-direction: column-reverse;
+  }    
+  .depilacao__img img{
+      min-width: auto;
+      max-height: 390px;
+  }    
+  .depilacao__texto{
+      text-align: center;        
+  }
+  .depilacao__titulo{
+      margin: 15px 0;
+  }
+  .depilacao__titulo::after{
+      margin: 5px auto;
+  }
+  .depilacao-list{
+      justify-content: center;
+      text-align: left;
+      column-gap: 64px;
+      flex-direction: row-reverse;
+  }
+  .depilacao-list ul + ul{
+      margin: 0;        
+  }
+  .depilacao__btn{
+      margin-top: 38px;
+  } 
+  .hero__unhadegel{
+      /* background: url(../_assets/banner-unhaDeGel.jpg); */
+      background-position: center center;
+  }
+  .unhaDeGel{
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      border-top: none;
+  }
+  .unhaDegel__titulo{
+      margin: 20px 0;
+  }
+  .unhaDeGel__btn, .imgs-ilustrativa__btn{
+      margin: 27px auto;
+  }
+  .imgs-ilustrativa__servico{
+      flex-direction: column;
+      padding: 10px;
+  }
+  .imgs-ilustrativa__servico figure{
+      margin: 10px 13px;
+      border-radius: 10px;
+  }
+  /*PG estetica*/
+  .banner-estetica{        
+      background-position: center center;
+  }
+  .prevImgEstetica{
+      flex-direction: column;
+  }
+  .prevImgCabelo__img{
+      margin: 10px 22px;        
+  }
+  .servico{
+      padding: 0 10px;
+  }
+  .servico__lista--coluna{
+      width: 100%;
+      margin: 30px 0;
+  }
+  .servico__imgRostocilios{
+      display: none;
+  }
+  .bronze-titulo{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .bronzeamento{
+      flex-direction: column;
+      margin: 10px 0;
+  }
+  
+  .bronzeamento__img{
+      width: 87%;
+      margin: 10px auto;
+  }
+  /*PG Maquiagem*/
+  .banner-maquiagem{
+      background-position: center center;
+  }
+  .maquiagem h2{
+      margin: 20px 0;
+  }
+  .capaMaquiagem{
+      margin-top: 40px;
+  }
+  .maquiagem-servico{
+      padding: 0 50px;
+  }
+  .maquiagem-servico--coluna{
+      flex-direction: column-reverse;
+  }
+  
+  .servico__lista--maquiagem{
+      text-align: center;
+      margin: 0;
+  }
+  .servico__lista--maquiagem h4{
+      margin: 10px 0;
+      font-weight: 700;
+  }
+  .servico__btn--maquiagem{
+      margin: 30px auto;
+  }
+  .servico__imgMaquiagens{
+      margin: 40px 0;
+      min-width: 370px;
+  }
+  .maquiagem-info{
+      flex-direction: column;
+      padding: 28px;
+      text-align: center;
+      background-image: none;
+  }
+  .maquiagem-info__texto{
+      width: auto;
+      margin-bottom: 50px;
+  }
+  .maquiagem-info__texto h4{
+      margin: 10px 20px;
+  }
+  .contatoMain__form, .contatoMain-info{      
+      flex-direction: column;       
+  }
+  .contatoMain__maps{
+      margin: 20px 0;
+  }
+  .contatoMain-info{
+      margin-top: 10px;
+  }
+  .contatoMain-info div:nth-of-type(1){
+      margin-bottom: 10px;
+  }
+  .btn-form{
+      margin-top: 28px;
+  }
+  .profissionais figure{
+      width: 100%;
+      margin: 26px;        
+  }
+  .profissionais figure img{
+      border-radius: 10px;
+      
+  }
+  .profissionais figure figcaption{
+      font-size: 17px;
+  }
+  .galeria{
+      grid-template-columns:repeat(1, 1fr);
+      grid-auto-rows: auto;
+      padding: 0 24px;
+  }       
+  .w-2, .w-3, .w-4{
+      grid-column: 1 / -1;
+  }    
+  .galeriaImg6, .galeriaImg11, .galeriaImg12{    
+      grid-row: auto;
+      grid-column: auto;
+  }
+  #lightbox.active::before{
+      font-size: 25px;
+  }
+  
+} 

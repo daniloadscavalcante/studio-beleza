@@ -9,3 +9,12 @@
 .column{
     flex-direction: column;
 }
+@media only screen and (min-width: 620px) and (max-width:980px){
+    .container{       
+        padding: 10px;
+               
+    }
+    .b_texto {
+        padding: 0 24px;
+    }
+}

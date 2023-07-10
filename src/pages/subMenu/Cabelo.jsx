@@ -15,7 +15,7 @@ export default function Cabelo(){
             titulo="cabelo"
             bg="/img/banner-cabelo.jpg"
             />
-            <p>pagina cabelo</p>
+            
             <Container customClass="column">
       
                 <p className="introducao__texto">você. São especializados em criar um look único e treinar você para os cuidados diários. Oferecemos uma variedade de serviços como: corte masculino e feminino, coloração, tonalização, reflexos, mechas, luzes, ombre hair, tratamentos capilares e penteados para ocasiões especiais. Você pode se assegurar de estar recebendo um tratamento individualizado e com resultado.</p>
