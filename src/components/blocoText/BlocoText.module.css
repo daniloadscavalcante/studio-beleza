@@ -13,3 +13,8 @@
     padding: 0px 24px;
   }
 }
+@media only screen and (max-width:600px){
+  .b_texto-right{
+    text-align: center;
+}
+}
