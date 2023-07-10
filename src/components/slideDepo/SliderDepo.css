@@ -5,7 +5,7 @@
     display: none !important;
 }
 .slick-dots{
-    bottom: -70px;
+    bottom: -70px;  
 }
 .slick-dots li.slick-active button:before{
     color: #fff;

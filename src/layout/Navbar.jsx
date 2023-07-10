@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import { useState } from 'react'
 
 export default function Navbar(){
+    
     const [ativo, setAtivo] = useState(false)
 
    function handleToggle(){
@@ -11,6 +12,9 @@ export default function Navbar(){
    function handlehideMenu(){
     setAtivo(false)
    }
+   function handleLinkClick(e) {
+    e.stopPropagation();
+  }
     return(
         <nav className='nav-wrapper'>
             <div className={`toggle ${ativo ? 'Ativo' : ''}`} onClick={handleToggle}>
@@ -19,10 +23,10 @@ export default function Navbar(){
                 <span className="line"></span>
             </div>
             
-            <ul className={`menu ${ativo ? 'Ativo' : ''}`} onClick={handlehideMenu}>
-                <span className='close-toggle'>&times;</span>
+            <ul className={`menu ${ativo ? 'Ativo' : ''}`}onClick={handlehideMenu}>
+                <span className="close-toggle">&times;</span>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="#" className='item'>Serviços</Link>                
+                <li><Link className='item' onClick={handleLinkClick}>Serviços</Link>                
                     <ul className= 'sub-menu'>
                         <li><Link to="/cabelo">Cabelo</Link></li>
                         <li><Link to="/depilacao">Depilação</Link></li>

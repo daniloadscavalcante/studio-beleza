@@ -9,6 +9,10 @@
 .column{
     flex-direction: column;
 }
+.column-reverse{
+    flex-direction: column-reverse;
+    
+}
 @media only screen and (min-width: 620px) and (max-width:980px){
     .container{       
         padding: 10px;

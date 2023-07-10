@@ -9,10 +9,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+html, body{
   font-size: 14px;
   color: #626262;  
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 a, li{
   text-decoration: none;
@@ -203,7 +204,8 @@ p{
 
 /* estilização do carosel*/
 .depo-carrosel{    
-  max-width: 700px; 
+  max-width: 700px;
+  width: 100%; 
   margin: 0 auto;
 }
 /* fim*/
@@ -817,6 +819,7 @@ footer{
       margin: 0;
       margin-bottom: 5px;
       font-size: 18px;
+      text-align: center;
   }
   h4{
       font-size: 15px;
@@ -850,7 +853,7 @@ footer{
   }
   .close-toggle{        
       text-align: right;
-      display: block;
+      display: block!important;
       width: 100%;
       color: #fff;        
       font-size: 35px;        
@@ -927,7 +930,7 @@ footer{
   }
   .depoimentos{
       margin: 0;
-  }
+  }  
   .galeria-home__cards{
       padding: 0 0 80px;
   }
@@ -1152,14 +1155,14 @@ footer{
       font-size: 17px;
   }
   .galeria{
-      grid-template-columns:repeat(1, 1fr);
-      grid-auto-rows: auto;
-      padding: 0 24px;
+      grid-template-columns:repeat(1, 1fr)!important;
+      grid-auto-rows: auto!important;
+      padding: 0 24px!important;
   }       
   .w-2, .w-3, .w-4{
-      grid-column: 1 / -1;
+      grid-column: 1 / -1!important;
   }    
-  .galeriaImg6, .galeriaImg11, .galeriaImg12{    
+  .galeria .galeriaImg6, .galeriaImg11, .galeriaImg12{    
       grid-row: auto;
       grid-column: auto;
   }

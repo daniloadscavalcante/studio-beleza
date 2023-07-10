@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
 import Home from './pages/Home'
-
-
 import Galeria from './pages/Galeria'
 import Equipe from './pages/Equipe'
 import Contato from './pages/Contato'
