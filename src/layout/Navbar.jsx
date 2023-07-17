@@ -30,7 +30,7 @@ export default function Navbar(){
                     <ul className= 'sub-menu'>
                         <li><Link to="/cabelo">Cabelo</Link></li>
                         <li><Link to="/depilacao">Depilação</Link></li>
-                        <li><Link to="#" className='arrow-downM'>Manicure</Link>
+                        <li><Link className='arrow-downM' onClick={handleLinkClick}>Manicure</Link>
                             <ul className='sub-menu-M'>
                                 <li><Link to="/unhadegel">Unha de Gel </Link></li>
                             </ul>

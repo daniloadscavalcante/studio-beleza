@@ -35,7 +35,7 @@ export default function Home(){
                     type="texto"
                     conteudo= "is simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whenis simply dummy text of the printing and typesetting ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
                     />             
-            <Container customClass="column-reverse">                
+            <Container customClass='column-wrapper'>                
                 <BlocoText                 
                 customClass="b_texto-right"
                 title="Proporcionamos as melhores experiências"

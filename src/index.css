@@ -255,7 +255,7 @@ p{
   justify-content: center;
 }
 .prevImg{
-  margin: 0 20px;
+  margin: 15px 20px;
   overflow: hidden;  
   border-radius: 22px;  
 }
@@ -630,7 +630,7 @@ form input{
 form input::placeholder{
   color: #B0AE9E;
 }
-.btn-form{
+#form .btn-form{
   margin:20px 0;
   border-radius: 0;
   background-color: transparent;
@@ -875,7 +875,7 @@ footer{
  .Ativo{
     display: flex!important;
  }
-  /* Sub-menu******************************8*/
+  /* Sub-menu*/
   .menu a.item::after{      
       font-size: 22px;        
       top: 13px;
@@ -886,7 +886,10 @@ footer{
       position: static;              
       display: none;         
       text-align: left;
-      width: 138px;              
+      width: 110px;              
+  }
+  .nav-wrapper .menu .sub-menu li{
+    width: 119%;
   }
   .nav-wrapper .menu .sub-menu li a{
       font-size: 17px;             
@@ -897,8 +900,9 @@ footer{
       right: 0px;
   } 
   .sub-menu-M{
-      width: auto;
-  }
+      width: 120%;
+      position: static;
+  } 
   .nav-wrapper .menu a{
       margin: 8px 0;
       padding: 9px 0;             
@@ -927,6 +931,11 @@ footer{
   .melhores-exp__info{
       text-align: center;
       padding-top: 30px;
+  }
+  .img-experiecia{
+    order: -1;
+    
+    
   }
   .depoimentos{
       margin: 0;
@@ -1023,7 +1032,7 @@ footer{
       margin: 0;        
   }
   .depilacao__btn{
-      margin-top: 38px;
+      margin: 30px auto 0px!important;
   } 
   .hero__unhadegel{
       /* background: url(../_assets/banner-unhaDeGel.jpg); */
@@ -1040,7 +1049,7 @@ footer{
       margin: 20px 0;
   }
   .unhaDeGel__btn, .imgs-ilustrativa__btn{
-      margin: 27px auto;
+      margin: 27px auto!important;
   }
   .imgs-ilustrativa__servico{
       flex-direction: column;
@@ -1069,6 +1078,9 @@ footer{
   }
   .servico__imgRostocilios{
       display: none;
+  }
+  .servico__btn-estetica{
+    margin: 20px auto!important;
   }
   .bronze-titulo{
       text-align: center;
@@ -1109,7 +1121,7 @@ footer{
       font-weight: 700;
   }
   .servico__btn--maquiagem{
-      margin: 30px auto;
+      margin: 30px auto!important;
   }
   .servico__imgMaquiagens{
       margin: 40px 0;

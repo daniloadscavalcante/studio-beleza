@@ -9,10 +9,7 @@
 .column{
     flex-direction: column;
 }
-.column-reverse{
-    flex-direction: column-reverse;
-    
-}
+
 @media only screen and (min-width: 620px) and (max-width:980px){
     .container{       
         padding: 10px;
@@ -22,3 +19,9 @@
         padding: 0 24px;
     }
 }
+@media only screen and (max-width:600px){
+    .column-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
